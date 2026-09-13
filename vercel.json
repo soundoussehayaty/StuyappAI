@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm install",
+  "outputDirectory": "client",
+  "devCommand": "npm run dev",
+  "env": {
+    "GEMINI_API_KEY": "@GEMINI_API_KEY"
+  },
+  "functions": {
+    "server/server.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
